@@ -31,3 +31,7 @@ func _on_Timer_timeout():
 		c += 1
 		c %= colors.size()
 		update_color()
+
+
+func _on_Music_finished():
+	pass
